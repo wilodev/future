@@ -1,0 +1,88 @@
+require_relative '../../shared_fastlane/deploy_helpers'
+
+default_platform(:android)
+
+ANDROID_SECRETS_PATH = ENV['ANDROID_SECRETS_PATH'] ? File.expand_path(ENV['ANDROID_SECRETS_PATH']) : Dir.pwd
+DRY_RUN = ENV['DRY_RUN'].to_s.downcase == 'true'
+BETA_PACKAGE_NAME = "com.futurelearnmobile"
+DEV_PACKAGE_NAME = "com.futurelearn.mobile.dev"
+
+before_all do
+  ensure_git_status_clean
+end
+
+after_all do
+  reset_git_repo(disregard_gitignore: false)
+end
+
+platform :android do
+  desc "Deploy beta app"
+  lane :beta_deploy do
+    deploy(
+      package_name: BETA_PACKAGE_NAME,
+      build_flavor: 'beta',
+      increment_version_number: true,
+      announce_in_slack: true
+    )
+  end
+
+  desc "Deploy development app"
+  lane :dev_deploy do
+    deploy(
+      package_name: DEV_PACKAGE_NAME,
+      build_flavor: 'dev',
+      display_build_commit: true
+    )
+  end
+
+  private_lane :deploy do |options|
+    if options[:increment_version_number]
+      VERSION_NAME = SharedFastlane::DeployHelpers.generate_version_name(lane_context[SharedValues::PLATFORM_NAME])
+      android_set_version_name(
+        version_name: VERSION_NAME
+      )
+    end
+
+    VERSION_CODE = SharedFastlane::DeployHelpers.generate_version_code
+    android_set_version_code(
+      version_code: VERSION_CODE
+    )
+
+    SharedFastlane::DeployHelpers::with_updated_env_file(include_build_commit: options[:display_build_commit]) do
+      gradle(
+        task: "bundle",
+        flavor: options[:build_flavor],
+        properties: {
+          "android.injected.signing.key.alias" => ENV['ANDROID_KEY_ALIAS'],
+          "android.injected.signing.key.password" => ENV['ANDROID_KEY_PASSWORD'],
+          "android.injected.signing.store.file" => File.join(ANDROID_SECRETS_PATH, "futurelearn-mobile.keystore"),
+          "android.injected.signing.store.password" => ENV['ANDROID_KEYSTORE_PASSWORD']
+        }
+      )
+    end
+
+    unless DRY_RUN
+      upload_to_play_store(
+        track: 'internal',
+        release_status: 'completed',
+        skip_upload_apk: true,
+        skip_upload_metadata: true,
+        json_key: File.join(ANDROID_SECRETS_PATH, "service_account.json"),
+        package_name: options[:package_name]
+      )
+
+      if options[:increment_version_number]
+        release_tag = SharedFastlane::DeployHelpers.generate_tag_name(lane_context[SharedValues::PLATFORM_NAME], VERSION_NAME, VERSION_CODE)
+        add_git_tag(tag: release_tag)
+        push_git_tags(tag: release_tag)
+      end
+
+      if options[:announce_in_slack]
+        slack(
+          message: ":flapp: :google: Android app version #{VERSION_NAME} (#{VERSION_CODE}) successfully released :google: :flapp:",
+          slack_url: ENV['SLACK_RELEASE_NOTIFICATION_URL']
+        )
+      end
+    end
+  end
+end

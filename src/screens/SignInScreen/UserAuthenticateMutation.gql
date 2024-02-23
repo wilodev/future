@@ -1,0 +1,8 @@
+mutation UserAuthenticate($email: String!, $password: String!) {
+  userAuthenticate(input: { email: $email, password: $password }) {
+    token
+    errors {
+      message
+    }
+  }
+}

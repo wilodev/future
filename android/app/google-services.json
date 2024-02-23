@@ -1,0 +1,88 @@
+{
+  "project_info": {
+    "project_number": "48952613610",
+    "project_id": "futurelearn-5857f",
+    "storage_bucket": "futurelearn-5857f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48952613610:android:97cf2c45fd937397f95593",
+        "android_client_info": {
+          "package_name": "com.futurelearn.mobile.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48952613610-b11n8j7d4u2qi95a3ttamrervb956vn1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNMO66ALtIRtp9-gvCznfXuw0XKE78yGE"
+        },
+        {
+          "current_key": "AIzaSyDd8MhDscmaZuoNsK3DubQwmsFQcNtiM04"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48952613610-b11n8j7d4u2qi95a3ttamrervb956vn1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "48952613610-cth6uor503b86m1cl41h0pk72e1t814n.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.futurelearn.mobile.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48952613610:android:c39bcdcc165f9a50f95593",
+        "android_client_info": {
+          "package_name": "com.futurelearnmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48952613610-b11n8j7d4u2qi95a3ttamrervb956vn1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNMO66ALtIRtp9-gvCznfXuw0XKE78yGE"
+        },
+        {
+          "current_key": "AIzaSyDd8MhDscmaZuoNsK3DubQwmsFQcNtiM04"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48952613610-b11n8j7d4u2qi95a3ttamrervb956vn1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "48952613610-cth6uor503b86m1cl41h0pk72e1t814n.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.futurelearn.mobile.dev"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

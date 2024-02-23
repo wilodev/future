@@ -1,0 +1,38 @@
+query CourseEnrolment($enrolmentId: ID!) {
+  courseEnrolment(id: $enrolmentId) {
+    id
+    run {
+      id
+      fullTitle
+      imageUrl(version: HEADER)
+      imageAlt
+      organisation {
+        id
+        title
+      }
+      firstStep {
+        id
+        title
+        contentType
+        number
+        shortStepTypeLabel
+      }
+      canParticipate: can(action: participate)
+      isStarted
+      startTime
+    }
+    lastStepVisit {
+      id
+      step {
+        id
+        title
+        contentType
+        number
+        shortStepTypeLabel
+      }
+    }
+    accessExpiryTime
+    accessIsExpired
+    stepsCompletedRatio
+  }
+}

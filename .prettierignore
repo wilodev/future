@@ -1,0 +1,45 @@
+# Android/IntelliJ/Xcode
+.idea
+.gradle
+build/
+Images.xcassets/
+
+# BUCK
+buck-out/
+
+# CocoaPods
+/ios/Pods
+
+# IOS
+ios/Colors.xcassets/Contents.json
+
+# Android
+android/app/beta/release/output-metadata.json
+android/app/dev/debug/output-metadata.json
+android/app/dev/release/output-metadata.json
+android/app/dev
+android/app/beta
+android/app/production
+android/app/pro
+
+# Expo
+.expo/*
+web-build/
+
+# node.js
+node_modules/
+
+# Bundler
+.bundle
+
+# GraphQL codegen auto-generated files
+src/graphql.d.ts
+*.generated.tsx
+
+# Fastlane
+*/fastlane/README.md
+
+# GraphQL
+src/**/*.gql
+./src/graphql.d.ts
+src/**/*.generated.tsx

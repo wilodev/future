@@ -1,0 +1,16 @@
+schema: ${SCHEMA:http://localhost:3000/graphql}
+headers:
+  x-futurelearn-csrfp: '1'
+hooks:
+  afterAllFileWrite:
+    - prettier --write
+generates:
+  ./graphql/schema.graphql:
+    plugins:
+      - schema-ast
+  ./graphql/introspection.json:
+    plugins:
+      - introspection
+  ./graphql/possibleTypes.json:
+    plugins:
+      - fragment-matcher

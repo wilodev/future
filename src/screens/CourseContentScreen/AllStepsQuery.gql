@@ -1,0 +1,30 @@
+query AllSteps($enrolmentId: ID!) {
+  courseEnrolment(id: $enrolmentId) {
+    id
+    run {
+      id
+      weeks {
+        id
+        activities {
+          id
+          shortDescription
+          title
+          imageUrl
+          steps {
+            id
+            number
+            title
+            contentType
+            mobileSsoUrl
+          }
+        }
+      }
+    }
+    stepProgresses {
+      lastCompletedAt
+      step {
+        id
+      }
+    }
+  }
+}

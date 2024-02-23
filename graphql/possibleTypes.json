@@ -1,0 +1,7 @@
+{
+  "possibleTypes": {
+    "BaseContent": ["Article", "UnsupportedContent", "VideoArticle"],
+    "Content": ["Article", "UnsupportedContent", "VideoArticle"],
+    "HtmlBodyContent": ["Article", "VideoArticle"]
+  }
+}

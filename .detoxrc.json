@@ -1,0 +1,59 @@
+{
+  "testRunner": "jest",
+  "runnerConfig": "e2e/config.json",
+  "apps": {
+    "ios:release": {
+      "type": "ios.app",
+      "binaryPath": "./ios/build/Build/Products/Release-iphonesimulator/futurelearnmobile.app",
+      "build": "ENVFILE=.env.e2e  xcodebuild -workspace ios/futurelearnmobile.xcworkspace -scheme futurelearnmobile -configuration Release -sdk iphonesimulator -derivedDataPath ios/build"
+    },
+    "ios:debug": {
+      "type": "ios.app",
+      "binaryPath": "./ios/build/Build/Products/Debug-iphonesimulator/futurelearnmobile.app",
+      "build": "ENVFILE=.env.e2e xcodebuild -workspace ios/futurelearnmobile.xcworkspace -scheme futurelearnmobile -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build"
+    },
+    "android:release": {
+      "type": "android.apk",
+      "binaryPath": "android/app/build/outputs/apk/beta/release/app-beta-release.apk",
+      "build": "cd android && ENVFILE=../.env.e2e ./gradlew app:assembleBetaRelease app:assembleAndroidTest -DtestBuildType=release && cd .."
+    },
+    "android:debug": {
+      "type": "android.apk",
+      "binaryPath": "android/app/build/outputs/apk/beta/debug/app-beta-debug.apk",
+      "build": "cd android && ENVFILE=../.env.e2e ./gradlew app:assembleBetaDebug app:assembleAndroidTest -DtestBuildType=debug && cd .."
+    }
+  },
+  "devices": {
+    "simulator": {
+      "type": "ios.simulator",
+      "device": {
+        "type": "iPhone 12",
+        "os": "iOS 15.2"
+      }
+    },
+    "emulator": {
+      "type": "android.emulator",
+      "device": {
+        "avdName": "emu"
+      }
+    }
+  },
+  "configurations": {
+    "ios:release": {
+      "device": "simulator",
+      "app": "ios:release"
+    },
+    "ios:debug": {
+      "device": "simulator",
+      "app": "ios:debug"
+    },
+    "android:release": {
+      "device": "emulator",
+      "app": "android:release"
+    },
+    "android:debug": {
+      "device": "emulator",
+      "app": "android:debug"
+    }
+  }
+}

@@ -1,0 +1,4354 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormattedHTML renders the contents of <blockquote> tags correctly 1`] = `
+<View
+  style={
+    [
+      {},
+      undefined,
+      undefined,
+    ]
+  }
+  testID="html"
+>
+  <View
+    style={
+      [
+        {},
+        undefined,
+        undefined,
+      ]
+    }
+    testID="body"
+  >
+    <View
+      accessibilityLabel="Heading text"
+      accessibilityRole="header"
+      accessible={true}
+      style={
+        [
+          {
+            "marginBottom": 39,
+            "marginTop": 39,
+          },
+          undefined,
+          undefined,
+        ]
+      }
+      testID="h1"
+    >
+      <Text
+        allowFontScaling={true}
+        selectable={false}
+        style={
+          [
+            {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 34,
+              "fontWeight": "bold",
+              "letterSpacing": 0.4,
+              "lineHeight": 40.8,
+            },
+            undefined,
+            undefined,
+          ]
+        }
+      >
+        Heading text
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "marginBottom": 17,
+            "marginTop": 0,
+          },
+          undefined,
+          undefined,
+        ]
+      }
+      testID="p"
+    >
+      <Text
+        allowFontScaling={true}
+        selectable={false}
+        style={
+          [
+            {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 17,
+              "letterSpacing": 0.4,
+              "lineHeight": 23.799999999999997,
+            },
+            undefined,
+            undefined,
+          ]
+        }
+      >
+        Paragraph containing an important blockquote that people should take notice of
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          [
+            {
+              "marginBottom": 14,
+              "marginLeft": 30,
+              "marginRight": 30,
+              "marginTop": 14,
+            },
+            {
+              "borderLeftColor": "rgb(0, 122, 255)",
+              "borderLeftWidth": 2,
+              "marginLeft": 0,
+              "marginTop": 0,
+              "paddingLeft": 16,
+            },
+          ],
+          undefined,
+          undefined,
+        ]
+      }
+      testID="blockquote"
+    >
+      <View
+        accessibilityLabel="there could be a heading?"
+        accessibilityRole="header"
+        accessible={true}
+        style={
+          [
+            {
+              "marginBottom": 39,
+              "marginTop": 0,
+            },
+            undefined,
+            undefined,
+          ]
+        }
+        testID="h1"
+      >
+        <Text
+          allowFontScaling={true}
+          selectable={false}
+          style={
+            [
+              {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 34,
+                "fontWeight": "bold",
+                "letterSpacing": 0.4,
+                "lineHeight": 40.8,
+              },
+              undefined,
+              undefined,
+            ]
+          }
+        >
+          there could be a heading?
+        </Text>
+      </View>
+      <View
+        style={
+          [
+            {
+              "marginBottom": 17,
+              "marginTop": 0,
+            },
+            undefined,
+            undefined,
+          ]
+        }
+        testID="p"
+      >
+        <Text
+          allowFontScaling={true}
+          selectable={false}
+          style={
+            [
+              {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 17,
+                "letterSpacing": 0.4,
+                "lineHeight": 23.799999999999997,
+              },
+              undefined,
+              undefined,
+            ]
+          }
+        >
+          interesting text that is pulled out into a blockquote so it appears differently
+        </Text>
+      </View>
+      <View
+        style={
+          [
+            {
+              "marginBottom": 0,
+              "marginTop": 0,
+            },
+            undefined,
+            undefined,
+          ]
+        }
+        testID="p"
+      >
+        <Text
+          allowFontScaling={true}
+          selectable={false}
+          style={
+            [
+              {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 17,
+                "letterSpacing": 0.4,
+                "lineHeight": 23.799999999999997,
+              },
+              undefined,
+              undefined,
+            ]
+          }
+        >
+          <Text
+            allowFontScaling={true}
+            selectable={false}
+            style={
+              [
+                {
+                  "color": "rgb(28, 28, 30)",
+                  "fontSize": 17,
+                  "letterSpacing": 0.4,
+                  "lineHeight": 23.799999999999997,
+                },
+                undefined,
+                undefined,
+              ]
+            }
+          >
+            I think it's probably going to be plain
+          </Text>
+          <View>
+            <Text
+              allowFontScaling={true}
+              selectable={false}
+              style={
+                [
+                  [
+                    {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 11.62,
+                      "letterSpacing": 0.4,
+                      "lineHeight": 23.799999999999997,
+                      "textAlignVertical": "bottom",
+                    },
+                    {
+                      "fontSize": 11.6195,
+                      "lineHeight": 14.279999999999998,
+                      "marginBottom": -6,
+                    },
+                  ],
+                  undefined,
+                  undefined,
+                ]
+              }
+              testID="sub"
+            >
+              mostly?
+            </Text>
+          </View>
+          <Text
+            allowFontScaling={true}
+            selectable={false}
+            style={
+              [
+                {
+                  "color": "rgb(28, 28, 30)",
+                  "fontSize": 17,
+                  "letterSpacing": 0.4,
+                  "lineHeight": 23.799999999999997,
+                },
+                undefined,
+                undefined,
+              ]
+            }
+          >
+             text
+          </Text>
+        </Text>
+      </View>
+    </View>
+    <Text
+      allowFontScaling={true}
+      selectable={false}
+      style={
+        [
+          {
+            "color": "rgb(28, 28, 30)",
+            "fontSize": 17,
+            "letterSpacing": 0.4,
+            "lineHeight": 23.799999999999997,
+          },
+          undefined,
+          undefined,
+        ]
+      }
+    >
+      text that goes underneath the blockquote which looks less interesting
+    </Text>
+    <View
+      style={
+        [
+          {
+            "marginBottom": 17,
+            "marginTop": 0,
+          },
+          undefined,
+          undefined,
+        ]
+      }
+      testID="p"
+    />
+    <View
+      style={
+        [
+          {
+            "marginBottom": 17,
+            "marginTop": 0,
+          },
+          undefined,
+          undefined,
+        ]
+      }
+      testID="p"
+    >
+      <Text
+        allowFontScaling={true}
+        selectable={false}
+        style={
+          [
+            {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 17,
+              "letterSpacing": 0.4,
+              "lineHeight": 23.799999999999997,
+            },
+            undefined,
+            undefined,
+          ]
+        }
+      >
+        Then we have a blockquote that is more than one line
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          [
+            {
+              "marginBottom": 14,
+              "marginLeft": 30,
+              "marginRight": 30,
+              "marginTop": 14,
+            },
+            {
+              "borderLeftColor": "rgb(0, 122, 255)",
+              "borderLeftWidth": 2,
+              "marginLeft": 0,
+              "marginTop": 0,
+              "paddingLeft": 16,
+            },
+          ],
+          undefined,
+          undefined,
+        ]
+      }
+      testID="blockquote"
+    >
+      <View
+        style={
+          [
+            {
+              "marginBottom": 17,
+              "marginTop": 0,
+            },
+            undefined,
+            undefined,
+          ]
+        }
+        testID="p"
+      >
+        <Text
+          allowFontScaling={true}
+          selectable={false}
+          style={
+            [
+              {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 17,
+                "letterSpacing": 0.4,
+                "lineHeight": 23.799999999999997,
+              },
+              undefined,
+              undefined,
+            ]
+          }
+        >
+          This blockquote is made of up of two statements. This is the first.
+        </Text>
+      </View>
+      <View
+        style={
+          [
+            {
+              "marginBottom": 17,
+              "marginTop": 0,
+            },
+            undefined,
+            undefined,
+          ]
+        }
+        testID="p"
+      >
+        <Text
+          allowFontScaling={true}
+          selectable={false}
+          style={
+            [
+              {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 17,
+                "letterSpacing": 0.4,
+                "lineHeight": 23.799999999999997,
+              },
+              undefined,
+              undefined,
+            ]
+          }
+        >
+          And this is the second.
+        </Text>
+      </View>
+      <View
+        style={
+          [
+            {
+              "marginBottom": 0,
+              "marginTop": 0,
+            },
+            undefined,
+            undefined,
+          ]
+        }
+        testID="p"
+      >
+        <Text
+          allowFontScaling={true}
+          selectable={false}
+          style={
+            [
+              {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 17,
+                "letterSpacing": 0.4,
+                "lineHeight": 23.799999999999997,
+              },
+              undefined,
+              undefined,
+            ]
+          }
+        >
+          and an extra third paragraph for the sake of it
+        </Text>
+      </View>
+    </View>
+    <Text
+      allowFontScaling={true}
+      selectable={false}
+      style={
+        [
+          {
+            "color": "rgb(28, 28, 30)",
+            "fontSize": 17,
+            "letterSpacing": 0.4,
+            "lineHeight": 23.799999999999997,
+          },
+          undefined,
+          undefined,
+        ]
+      }
+    >
+      hope you enjoyed that blockquote. Here's an empty one
+    </Text>
+    <View
+      style={
+        [
+          [
+            {
+              "marginBottom": 14,
+              "marginLeft": 30,
+              "marginRight": 30,
+              "marginTop": 14,
+            },
+            {
+              "borderLeftColor": "rgb(0, 122, 255)",
+              "borderLeftWidth": 2,
+              "marginLeft": 0,
+              "marginTop": 0,
+              "paddingLeft": 16,
+            },
+          ],
+          undefined,
+          undefined,
+        ]
+      }
+      testID="blockquote"
+    />
+    <Text
+      allowFontScaling={true}
+      selectable={false}
+      style={
+        [
+          {
+            "color": "rgb(28, 28, 30)",
+            "fontSize": 17,
+            "letterSpacing": 0.4,
+            "lineHeight": 23.799999999999997,
+          },
+          undefined,
+          undefined,
+        ]
+      }
+    >
+      Bye for now!
+    </Text>
+    <View
+      style={
+        [
+          {
+            "marginBottom": 17,
+            "marginTop": 0,
+          },
+          undefined,
+          undefined,
+        ]
+      }
+      testID="p"
+    />
+  </View>
+</View>
+`;
+
+exports[`FormattedHTML renders the contents of <code> tags correctly 1`] = `
+<View
+  style={
+    [
+      {},
+      undefined,
+      undefined,
+    ]
+  }
+  testID="html"
+>
+  <View
+    style={
+      [
+        {},
+        undefined,
+        undefined,
+      ]
+    }
+    testID="body"
+  >
+    <View
+      style={
+        [
+          {
+            "marginBottom": 14,
+            "marginTop": 14,
+          },
+          undefined,
+          undefined,
+        ]
+      }
+      testID="pre"
+    >
+      <RCTScrollView
+        horizontal={true}
+        style={
+          {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "overflow": "scroll",
+            "padding": 8,
+          }
+        }
+      >
+        <View>
+          <RCTScrollView>
+            <View>
+              <Text
+                style={
+                  {
+                    "color": "#000",
+                    "fontFamily": "Menlo-Regular",
+                    "fontSize": 17,
+                    "height": 22,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "#000",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#000",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                    
+
+                  </Text>
+                </Text>
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "#000",
+                    "fontFamily": "Menlo-Regular",
+                    "fontSize": 17,
+                    "height": 22,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "#000",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#000",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                        
+                  </Text>
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#954121",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#954121",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                    fun
+                  </Text>
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#000",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#000",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                     
+                  </Text>
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#458",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "fontWeight": "bold",
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#458",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                    transform
+                  </Text>
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#00f",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#00f",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                    (pet: 
+                  </Text>
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#19469d",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#19469d",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                    Animal
+                  </Text>
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#00f",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#00f",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                    )
+                  </Text>
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#000",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#000",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                    : 
+                  </Text>
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#0086b3",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#0086b3",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                    Int
+                  </Text>
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#000",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#000",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                     {
+
+                  </Text>
+                </Text>
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "#000",
+                    "fontFamily": "Menlo-Regular",
+                    "fontSize": 17,
+                    "height": 22,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "#000",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#000",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                          
+                  </Text>
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#954121",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#954121",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                    return
+                  </Text>
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#000",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#000",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                     
+                  </Text>
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#954121",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#954121",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                    when
+                  </Text>
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#000",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#000",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                     (pet) {
+
+                  </Text>
+                </Text>
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "#000",
+                    "fontFamily": "Menlo-Regular",
+                    "fontSize": 17,
+                    "height": 22,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "#000",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#000",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                            
+                  </Text>
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#219161",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#219161",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                    "alpaca"
+                  </Text>
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#000",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#000",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                     -&gt; 
+                  </Text>
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#40a070",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#40a070",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                    0
+                  </Text>
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#000",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#000",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                    
+
+                  </Text>
+                </Text>
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "#000",
+                    "fontFamily": "Menlo-Regular",
+                    "fontSize": 17,
+                    "height": 22,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "#000",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#000",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                            
+                  </Text>
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#219161",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#219161",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                    "panda"
+                  </Text>
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#000",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#000",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                     -&gt; 
+                  </Text>
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#40a070",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#40a070",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                    1
+                  </Text>
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#000",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#000",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                    
+
+                  </Text>
+                </Text>
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "#000",
+                    "fontFamily": "Menlo-Regular",
+                    "fontSize": 17,
+                    "height": 22,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "#000",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#000",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                            
+                  </Text>
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#219161",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#219161",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                    "dog"
+                  </Text>
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#000",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#000",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                     -&gt; 
+                  </Text>
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#40a070",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#40a070",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                    2
+                  </Text>
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#000",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#000",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                    
+
+                  </Text>
+                </Text>
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "#000",
+                    "fontFamily": "Menlo-Regular",
+                    "fontSize": 17,
+                    "height": 22,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "#000",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#000",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                            
+                  </Text>
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#954121",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#954121",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                    else
+                  </Text>
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#000",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#000",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                     -&gt; 
+                  </Text>
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#954121",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#954121",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                    throw
+                  </Text>
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#000",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#000",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                     IllegalArgumentException(
+                  </Text>
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#219161",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#219161",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                    "Invalid pet param value"
+                  </Text>
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#000",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#000",
+                        "fontFamily": "Menlo-Regular",
+                        "fontSize": 17,
+                        "height": 22,
+                      }
+                    }
+                  >
+                    )
+
+                  </Text>
+                </Text>
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "#000",
+                    "fontFamily": "Menlo-Regular",
+                    "fontSize": 17,
+                    "height": 22,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "#000",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                        }
+
+                </Text>
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "#000",
+                    "fontFamily": "Menlo-Regular",
+                    "fontSize": 17,
+                    "height": 22,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "#000",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                      }
+
+                </Text>
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "#000",
+                    "fontFamily": "Menlo-Regular",
+                    "fontSize": 17,
+                    "height": 22,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "#000",
+                      "fontFamily": "Menlo-Regular",
+                      "fontSize": 17,
+                      "height": 22,
+                    }
+                  }
+                >
+                      
+
+                </Text>
+              </Text>
+            </View>
+          </RCTScrollView>
+        </View>
+      </RCTScrollView>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`FormattedHTML renders the contents of <latex-formula> tags correctly 1`] = `
+<View
+  style={
+    [
+      {},
+      undefined,
+      undefined,
+    ]
+  }
+  testID="html"
+>
+  <View
+    style={
+      [
+        {},
+        undefined,
+        undefined,
+      ]
+    }
+    testID="body"
+  >
+    <View
+      style={
+        [
+          {
+            "marginBottom": 17,
+            "marginTop": 0,
+          },
+          undefined,
+          undefined,
+        ]
+      }
+      testID="p"
+    >
+      <Text
+        allowFontScaling={true}
+        selectable={false}
+        style={
+          [
+            {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 17,
+              "letterSpacing": 0.4,
+              "lineHeight": 23.799999999999997,
+            },
+            undefined,
+            undefined,
+          ]
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          selectable={false}
+          style={
+            [
+              {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 17,
+                "letterSpacing": 0.4,
+                "lineHeight": 23.799999999999997,
+              },
+              undefined,
+              undefined,
+            ]
+          }
+        >
+          In physics, the mass-energy equivalence is stated by the equation 
+        </Text>
+        <RNSVGSvgView
+          align="xMidYMid"
+          bbHeight="18.5725ex"
+          bbWidth="73.9415ex"
+          color="rgb(28, 28, 30)"
+          focusable={false}
+          fontSize={17}
+          height="18.5725ex"
+          meetOrSlice={0}
+          minX={0}
+          minY={-883.9}
+          role="img"
+          style={
+            [
+              {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              {
+                "verticalAlign": "-0.186ex",
+              },
+              {
+                "flex": 0,
+                "height": 18,
+                "width": 73,
+              },
+            ]
+          }
+          tintColor="rgb(28, 28, 30)"
+          vbHeight={965.9}
+          vbWidth={3845.1}
+          width="73.9415ex"
+          xml="<svg style="vertical-align: -0.186ex" xmlns="http://www.w3.org/2000/svg" width="73.9415ex" height="18.5725ex" role="img" focusable="false" viewBox="0 -883.9 3845.1 965.9" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="MJX-1-TEX-I-1D438" d="M492 213Q472 213 472 226Q472 230 477 250T482 285Q482 316 461 323T364 330H312Q311 328 277 192T243 52Q243 48 254 48T334 46Q428 46 458 48T518 61Q567 77 599 117T670 248Q680 270 683 272Q690 274 698 274Q718 274 718 261Q613 7 608 2Q605 0 322 0H133Q31 0 31 11Q31 13 34 25Q38 41 42 43T65 46Q92 46 125 49Q139 52 144 61Q146 66 215 342T285 622Q285 629 281 629Q273 632 228 634H197Q191 640 191 642T193 659Q197 676 203 680H757Q764 676 764 669Q764 664 751 557T737 447Q735 440 717 440H705Q698 445 698 453L701 476Q704 500 704 528Q704 558 697 578T678 609T643 625T596 632T532 634H485Q397 633 392 631Q388 629 386 622Q385 619 355 499T324 377Q347 376 372 376H398Q464 376 489 391T534 472Q538 488 540 490T557 493Q562 493 565 493T570 492T572 491T574 487T577 483L544 351Q511 218 508 216Q505 213 492 213Z"></path><path id="MJX-1-TEX-N-3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path><path id="MJX-1-TEX-I-1D45A" d="M21 287Q22 293 24 303T36 341T56 388T88 425T132 442T175 435T205 417T221 395T229 376L231 369Q231 367 232 367L243 378Q303 442 384 442Q401 442 415 440T441 433T460 423T475 411T485 398T493 385T497 373T500 364T502 357L510 367Q573 442 659 442Q713 442 746 415T780 336Q780 285 742 178T704 50Q705 36 709 31T724 26Q752 26 776 56T815 138Q818 149 821 151T837 153Q857 153 857 145Q857 144 853 130Q845 101 831 73T785 17T716 -10Q669 -10 648 17T627 73Q627 92 663 193T700 345Q700 404 656 404H651Q565 404 506 303L499 291L466 157Q433 26 428 16Q415 -11 385 -11Q372 -11 364 -4T353 8T350 18Q350 29 384 161L420 307Q423 322 423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 181Q151 335 151 342Q154 357 154 369Q154 405 129 405Q107 405 92 377T69 316T57 280Q55 278 41 278H27Q21 284 21 287Z"></path><path id="MJX-1-TEX-I-1D450" d="M34 159Q34 268 120 355T306 442Q362 442 394 418T427 355Q427 326 408 306T360 285Q341 285 330 295T319 325T330 359T352 380T366 386H367Q367 388 361 392T340 400T306 404Q276 404 249 390Q228 381 206 359Q162 315 142 235T121 119Q121 73 147 50Q169 26 205 26H209Q321 26 394 111Q403 121 406 121Q410 121 419 112T429 98T420 83T391 55T346 25T282 0T202 -11Q127 -11 81 37T34 159Z"></path><path id="MJX-1-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></defs><g stroke="rgb(28, 28, 30)" fill="rgb(28, 28, 30)" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><use data-c="1D438" xlink:href="#MJX-1-TEX-I-1D438"></use></g><g data-mml-node="mo" transform="translate(1041.8,0)"><use data-c="3D" xlink:href="#MJX-1-TEX-N-3D"></use></g><g data-mml-node="mi" transform="translate(2097.6,0)"><use data-c="1D45A" xlink:href="#MJX-1-TEX-I-1D45A"></use></g><g data-mml-node="msup" transform="translate(2975.6,0)"><g data-mml-node="mi"><use data-c="1D450" xlink:href="#MJX-1-TEX-I-1D450"></use></g><g data-mml-node="mn" transform="translate(466,413) scale(0.707)"><use data-c="32" xlink:href="#MJX-1-TEX-N-32"></use></g></g></g></g></svg>"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <RNSVGGroup
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+          >
+            <RNSVGDefs>
+              <RNSVGPath
+                d="M492 213Q472 213 472 226Q472 230 477 250T482 285Q482 316 461 323T364 330H312Q311 328 277 192T243 52Q243 48 254 48T334 46Q428 46 458 48T518 61Q567 77 599 117T670 248Q680 270 683 272Q690 274 698 274Q718 274 718 261Q613 7 608 2Q605 0 322 0H133Q31 0 31 11Q31 13 34 25Q38 41 42 43T65 46Q92 46 125 49Q139 52 144 61Q146 66 215 342T285 622Q285 629 281 629Q273 632 228 634H197Q191 640 191 642T193 659Q197 676 203 680H757Q764 676 764 669Q764 664 751 557T737 447Q735 440 717 440H705Q698 445 698 453L701 476Q704 500 704 528Q704 558 697 578T678 609T643 625T596 632T532 634H485Q397 633 392 631Q388 629 386 622Q385 619 355 499T324 377Q347 376 372 376H398Q464 376 489 391T534 472Q538 488 540 490T557 493Q562 493 565 493T570 492T572 491T574 487T577 483L544 351Q511 218 508 216Q505 213 492 213Z"
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+                name="MJX-1-TEX-I-1D438"
+              />
+              <RNSVGPath
+                d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+                name="MJX-1-TEX-N-3D"
+              />
+              <RNSVGPath
+                d="M21 287Q22 293 24 303T36 341T56 388T88 425T132 442T175 435T205 417T221 395T229 376L231 369Q231 367 232 367L243 378Q303 442 384 442Q401 442 415 440T441 433T460 423T475 411T485 398T493 385T497 373T500 364T502 357L510 367Q573 442 659 442Q713 442 746 415T780 336Q780 285 742 178T704 50Q705 36 709 31T724 26Q752 26 776 56T815 138Q818 149 821 151T837 153Q857 153 857 145Q857 144 853 130Q845 101 831 73T785 17T716 -10Q669 -10 648 17T627 73Q627 92 663 193T700 345Q700 404 656 404H651Q565 404 506 303L499 291L466 157Q433 26 428 16Q415 -11 385 -11Q372 -11 364 -4T353 8T350 18Q350 29 384 161L420 307Q423 322 423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 181Q151 335 151 342Q154 357 154 369Q154 405 129 405Q107 405 92 377T69 316T57 280Q55 278 41 278H27Q21 284 21 287Z"
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+                name="MJX-1-TEX-I-1D45A"
+              />
+              <RNSVGPath
+                d="M34 159Q34 268 120 355T306 442Q362 442 394 418T427 355Q427 326 408 306T360 285Q341 285 330 295T319 325T330 359T352 380T366 386H367Q367 388 361 392T340 400T306 404Q276 404 249 390Q228 381 206 359Q162 315 142 235T121 119Q121 73 147 50Q169 26 205 26H209Q321 26 394 111Q403 121 406 121Q410 121 419 112T429 98T420 83T391 55T346 25T282 0T202 -11Q127 -11 81 37T34 159Z"
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+                name="MJX-1-TEX-I-1D450"
+              />
+              <RNSVGPath
+                d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+                name="MJX-1-TEX-N-32"
+              />
+            </RNSVGDefs>
+            <RNSVGGroup
+              fill={
+                {
+                  "payload": 4280032286,
+                  "type": 0,
+                }
+              }
+              matrix={
+                [
+                  1,
+                  0,
+                  0,
+                  -1,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                ]
+              }
+              stroke={
+                {
+                  "payload": 4280032286,
+                  "type": 0,
+                }
+              }
+              strokeWidth="0"
+            >
+              <RNSVGGroup
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+              >
+                <RNSVGGroup
+                  fill={
+                    {
+                      "payload": 4278190080,
+                      "type": 0,
+                    }
+                  }
+                >
+                  <RNSVGUse
+                    fill={
+                      {
+                        "payload": 4278190080,
+                        "type": 0,
+                      }
+                    }
+                    height="0"
+                    href="MJX-1-TEX-I-1D438"
+                    width="0"
+                    x="0"
+                    y="0"
+                  />
+                </RNSVGGroup>
+                <RNSVGGroup
+                  fill={
+                    {
+                      "payload": 4278190080,
+                      "type": 0,
+                    }
+                  }
+                  matrix={
+                    [
+                      1,
+                      0,
+                      0,
+                      1,
+                      1041.8,
+                      0,
+                    ]
+                  }
+                >
+                  <RNSVGUse
+                    fill={
+                      {
+                        "payload": 4278190080,
+                        "type": 0,
+                      }
+                    }
+                    height="0"
+                    href="MJX-1-TEX-N-3D"
+                    width="0"
+                    x="0"
+                    y="0"
+                  />
+                </RNSVGGroup>
+                <RNSVGGroup
+                  fill={
+                    {
+                      "payload": 4278190080,
+                      "type": 0,
+                    }
+                  }
+                  matrix={
+                    [
+                      1,
+                      0,
+                      0,
+                      1,
+                      2097.6,
+                      0,
+                    ]
+                  }
+                >
+                  <RNSVGUse
+                    fill={
+                      {
+                        "payload": 4278190080,
+                        "type": 0,
+                      }
+                    }
+                    height="0"
+                    href="MJX-1-TEX-I-1D45A"
+                    width="0"
+                    x="0"
+                    y="0"
+                  />
+                </RNSVGGroup>
+                <RNSVGGroup
+                  fill={
+                    {
+                      "payload": 4278190080,
+                      "type": 0,
+                    }
+                  }
+                  matrix={
+                    [
+                      1,
+                      0,
+                      0,
+                      1,
+                      2975.6,
+                      0,
+                    ]
+                  }
+                >
+                  <RNSVGGroup
+                    fill={
+                      {
+                        "payload": 4278190080,
+                        "type": 0,
+                      }
+                    }
+                  >
+                    <RNSVGUse
+                      fill={
+                        {
+                          "payload": 4278190080,
+                          "type": 0,
+                        }
+                      }
+                      height="0"
+                      href="MJX-1-TEX-I-1D450"
+                      width="0"
+                      x="0"
+                      y="0"
+                    />
+                  </RNSVGGroup>
+                  <RNSVGGroup
+                    fill={
+                      {
+                        "payload": 4278190080,
+                        "type": 0,
+                      }
+                    }
+                    matrix={
+                      [
+                        0.707,
+                        0,
+                        0,
+                        0.707,
+                        466,
+                        413,
+                      ]
+                    }
+                  >
+                    <RNSVGUse
+                      fill={
+                        {
+                          "payload": 4278190080,
+                          "type": 0,
+                        }
+                      }
+                      height="0"
+                      href="MJX-1-TEX-N-32"
+                      width="0"
+                      x="0"
+                      y="0"
+                    />
+                  </RNSVGGroup>
+                </RNSVGGroup>
+              </RNSVGGroup>
+            </RNSVGGroup>
+          </RNSVGGroup>
+        </RNSVGSvgView>
+        <Text
+          allowFontScaling={true}
+          selectable={false}
+          style={
+            [
+              {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 17,
+                "letterSpacing": 0.4,
+                "lineHeight": 23.799999999999997,
+              },
+              undefined,
+              undefined,
+            ]
+          }
+        >
+          some more text
+        </Text>
+      </Text>
+    </View>
+    <RNSVGSvgView
+      align="xMidYMid"
+      bbHeight="19.227ex"
+      bbWidth="105.85900000000001ex"
+      color="rgb(28, 28, 30)"
+      focusable={false}
+      fontSize={17}
+      height="19.227ex"
+      meetOrSlice={0}
+      minX={0}
+      minY={-750}
+      role="img"
+      style={
+        [
+          {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+          },
+          {
+            "verticalAlign": "-0.566ex",
+          },
+          {
+            "flex": 0,
+            "height": 19,
+            "width": 105,
+          },
+        ]
+      }
+      tintColor="rgb(28, 28, 30)"
+      vbHeight={1000}
+      vbWidth={5504.6}
+      width="105.85900000000001ex"
+      xml="<svg style="vertical-align: -0.566ex" xmlns="http://www.w3.org/2000/svg" width="105.85900000000001ex" height="19.227ex" role="img" focusable="false" viewBox="0 -750 5504.6 1000" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="MJX-1-TEX-N-2207" d="M46 676Q46 679 51 683H781Q786 679 786 676Q786 674 617 326T444 -26Q439 -33 416 -33T388 -26Q385 -22 216 326T46 676ZM697 596Q697 597 445 597T193 596Q195 591 319 336T445 80L697 596Z"></path><path id="MJX-1-TEX-N-22C5" d="M78 250Q78 274 95 292T138 310Q162 310 180 294T199 251Q199 226 182 208T139 190T96 207T78 250Z"></path><path id="MJX-1-TEX-B-1D404" d="M723 286Q721 284 700 145T677 3V0H39V62H147V618H39V680H660V676Q662 670 675 552T691 428V424H629V428Q629 429 627 448T618 494T601 541Q574 593 527 605T382 618H374H304V384H336Q338 384 347 384T361 384T376 386T392 390T407 397T421 407T432 423Q442 444 443 482V501H505V205H443V224Q442 258 435 278T411 307T380 318T336 322H304V62H375H394Q429 62 449 62T497 66T541 76T577 95T609 126T632 170T651 232Q661 287 661 289H723V286Z"></path><path id="MJX-1-TEX-N-3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path><path id="MJX-1-TEX-I-1D70C" d="M58 -216Q25 -216 23 -186Q23 -176 73 26T127 234Q143 289 182 341Q252 427 341 441Q343 441 349 441T359 442Q432 442 471 394T510 276Q510 219 486 165T425 74T345 13T266 -10H255H248Q197 -10 165 35L160 41L133 -71Q108 -168 104 -181T92 -202Q76 -216 58 -216ZM424 322Q424 359 407 382T357 405Q322 405 287 376T231 300Q217 269 193 170L176 102Q193 26 260 26Q298 26 334 62Q367 92 389 158T418 266T424 322Z"></path><path id="MJX-1-TEX-N-2F" d="M423 750Q432 750 438 744T444 730Q444 725 271 248T92 -240Q85 -250 75 -250Q68 -250 62 -245T56 -231Q56 -221 230 257T407 740Q411 750 423 750Z"></path><path id="MJX-1-TEX-I-1D716" d="M227 -11Q149 -11 95 41T40 174Q40 262 87 322Q121 367 173 396T287 430Q289 431 329 431H367Q382 426 382 411Q382 385 341 385H325H312Q191 385 154 277L150 265H327Q340 256 340 246Q340 228 320 219H138V217Q128 187 128 143Q128 77 160 52T231 26Q258 26 284 36T326 57T343 68Q350 68 354 58T358 39Q358 36 357 35Q354 31 337 21T289 0T227 -11Z"></path><path id="MJX-1-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"></path></defs><g stroke="rgb(28, 28, 30)" fill="rgb(28, 28, 30)" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><use data-c="2207" xlink:href="#MJX-1-TEX-N-2207"></use></g><g data-mml-node="mo" transform="translate(1055.2,0)"><use data-c="22C5" xlink:href="#MJX-1-TEX-N-22C5"></use></g><g data-mml-node="mi" transform="translate(1555.4,0)"><use data-c="1D404" xlink:href="#MJX-1-TEX-B-1D404"></use></g><g data-mml-node="mo" transform="translate(2589.2,0)"><use data-c="3D" xlink:href="#MJX-1-TEX-N-3D"></use></g><g data-mml-node="mi" transform="translate(3645,0)"><use data-c="1D70C" xlink:href="#MJX-1-TEX-I-1D70C"></use></g><g data-mml-node="TeXAtom" data-mjx-texclass="ORD" transform="translate(4162,0)"><g data-mml-node="mo"><use data-c="2F" xlink:href="#MJX-1-TEX-N-2F"></use></g></g><g data-mml-node="msub" transform="translate(4662,0)"><g data-mml-node="mi"><use data-c="1D716" xlink:href="#MJX-1-TEX-I-1D716"></use></g><g data-mml-node="mn" transform="translate(439,-150) scale(0.707)"><use data-c="30" xlink:href="#MJX-1-TEX-N-30"></use></g></g></g></g></svg>"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+    >
+      <RNSVGGroup
+        fill={
+          {
+            "payload": 4278190080,
+            "type": 0,
+          }
+        }
+      >
+        <RNSVGDefs>
+          <RNSVGPath
+            d="M46 676Q46 679 51 683H781Q786 679 786 676Q786 674 617 326T444 -26Q439 -33 416 -33T388 -26Q385 -22 216 326T46 676ZM697 596Q697 597 445 597T193 596Q195 591 319 336T445 80L697 596Z"
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            name="MJX-1-TEX-N-2207"
+          />
+          <RNSVGPath
+            d="M78 250Q78 274 95 292T138 310Q162 310 180 294T199 251Q199 226 182 208T139 190T96 207T78 250Z"
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            name="MJX-1-TEX-N-22C5"
+          />
+          <RNSVGPath
+            d="M723 286Q721 284 700 145T677 3V0H39V62H147V618H39V680H660V676Q662 670 675 552T691 428V424H629V428Q629 429 627 448T618 494T601 541Q574 593 527 605T382 618H374H304V384H336Q338 384 347 384T361 384T376 386T392 390T407 397T421 407T432 423Q442 444 443 482V501H505V205H443V224Q442 258 435 278T411 307T380 318T336 322H304V62H375H394Q429 62 449 62T497 66T541 76T577 95T609 126T632 170T651 232Q661 287 661 289H723V286Z"
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            name="MJX-1-TEX-B-1D404"
+          />
+          <RNSVGPath
+            d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            name="MJX-1-TEX-N-3D"
+          />
+          <RNSVGPath
+            d="M58 -216Q25 -216 23 -186Q23 -176 73 26T127 234Q143 289 182 341Q252 427 341 441Q343 441 349 441T359 442Q432 442 471 394T510 276Q510 219 486 165T425 74T345 13T266 -10H255H248Q197 -10 165 35L160 41L133 -71Q108 -168 104 -181T92 -202Q76 -216 58 -216ZM424 322Q424 359 407 382T357 405Q322 405 287 376T231 300Q217 269 193 170L176 102Q193 26 260 26Q298 26 334 62Q367 92 389 158T418 266T424 322Z"
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            name="MJX-1-TEX-I-1D70C"
+          />
+          <RNSVGPath
+            d="M423 750Q432 750 438 744T444 730Q444 725 271 248T92 -240Q85 -250 75 -250Q68 -250 62 -245T56 -231Q56 -221 230 257T407 740Q411 750 423 750Z"
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            name="MJX-1-TEX-N-2F"
+          />
+          <RNSVGPath
+            d="M227 -11Q149 -11 95 41T40 174Q40 262 87 322Q121 367 173 396T287 430Q289 431 329 431H367Q382 426 382 411Q382 385 341 385H325H312Q191 385 154 277L150 265H327Q340 256 340 246Q340 228 320 219H138V217Q128 187 128 143Q128 77 160 52T231 26Q258 26 284 36T326 57T343 68Q350 68 354 58T358 39Q358 36 357 35Q354 31 337 21T289 0T227 -11Z"
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            name="MJX-1-TEX-I-1D716"
+          />
+          <RNSVGPath
+            d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            name="MJX-1-TEX-N-30"
+          />
+        </RNSVGDefs>
+        <RNSVGGroup
+          fill={
+            {
+              "payload": 4280032286,
+              "type": 0,
+            }
+          }
+          matrix={
+            [
+              1,
+              0,
+              0,
+              -1,
+              0,
+              0,
+            ]
+          }
+          propList={
+            [
+              "fill",
+              "stroke",
+              "strokeWidth",
+            ]
+          }
+          stroke={
+            {
+              "payload": 4280032286,
+              "type": 0,
+            }
+          }
+          strokeWidth="0"
+        >
+          <RNSVGGroup
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+          >
+            <RNSVGGroup
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+            >
+              <RNSVGUse
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+                height="0"
+                href="MJX-1-TEX-N-2207"
+                width="0"
+                x="0"
+                y="0"
+              />
+            </RNSVGGroup>
+            <RNSVGGroup
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              matrix={
+                [
+                  1,
+                  0,
+                  0,
+                  1,
+                  1055.2,
+                  0,
+                ]
+              }
+            >
+              <RNSVGUse
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+                height="0"
+                href="MJX-1-TEX-N-22C5"
+                width="0"
+                x="0"
+                y="0"
+              />
+            </RNSVGGroup>
+            <RNSVGGroup
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              matrix={
+                [
+                  1,
+                  0,
+                  0,
+                  1,
+                  1555.4,
+                  0,
+                ]
+              }
+            >
+              <RNSVGUse
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+                height="0"
+                href="MJX-1-TEX-B-1D404"
+                width="0"
+                x="0"
+                y="0"
+              />
+            </RNSVGGroup>
+            <RNSVGGroup
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              matrix={
+                [
+                  1,
+                  0,
+                  0,
+                  1,
+                  2589.2,
+                  0,
+                ]
+              }
+            >
+              <RNSVGUse
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+                height="0"
+                href="MJX-1-TEX-N-3D"
+                width="0"
+                x="0"
+                y="0"
+              />
+            </RNSVGGroup>
+            <RNSVGGroup
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              matrix={
+                [
+                  1,
+                  0,
+                  0,
+                  1,
+                  3645,
+                  0,
+                ]
+              }
+            >
+              <RNSVGUse
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+                height="0"
+                href="MJX-1-TEX-I-1D70C"
+                width="0"
+                x="0"
+                y="0"
+              />
+            </RNSVGGroup>
+            <RNSVGGroup
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              matrix={
+                [
+                  1,
+                  0,
+                  0,
+                  1,
+                  4162,
+                  0,
+                ]
+              }
+            >
+              <RNSVGGroup
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+              >
+                <RNSVGUse
+                  fill={
+                    {
+                      "payload": 4278190080,
+                      "type": 0,
+                    }
+                  }
+                  height="0"
+                  href="MJX-1-TEX-N-2F"
+                  width="0"
+                  x="0"
+                  y="0"
+                />
+              </RNSVGGroup>
+            </RNSVGGroup>
+            <RNSVGGroup
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              matrix={
+                [
+                  1,
+                  0,
+                  0,
+                  1,
+                  4662,
+                  0,
+                ]
+              }
+            >
+              <RNSVGGroup
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+              >
+                <RNSVGUse
+                  fill={
+                    {
+                      "payload": 4278190080,
+                      "type": 0,
+                    }
+                  }
+                  height="0"
+                  href="MJX-1-TEX-I-1D716"
+                  width="0"
+                  x="0"
+                  y="0"
+                />
+              </RNSVGGroup>
+              <RNSVGGroup
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+                matrix={
+                  [
+                    0.707,
+                    0,
+                    0,
+                    0.707,
+                    439,
+                    -150,
+                  ]
+                }
+              >
+                <RNSVGUse
+                  fill={
+                    {
+                      "payload": 4278190080,
+                      "type": 0,
+                    }
+                  }
+                  height="0"
+                  href="MJX-1-TEX-N-30"
+                  width="0"
+                  x="0"
+                  y="0"
+                />
+              </RNSVGGroup>
+            </RNSVGGroup>
+          </RNSVGGroup>
+        </RNSVGGroup>
+      </RNSVGGroup>
+    </RNSVGSvgView>
+    <View
+      style={
+        [
+          {
+            "marginBottom": 17,
+            "marginTop": 0,
+          },
+          undefined,
+          undefined,
+        ]
+      }
+      testID="p"
+    >
+      <Text
+        allowFontScaling={true}
+        selectable={false}
+        style={
+          [
+            {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 17,
+              "letterSpacing": 0.4,
+              "lineHeight": 23.799999999999997,
+            },
+            undefined,
+            undefined,
+          ]
+        }
+      >
+        another paragraph
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "marginBottom": 17,
+            "marginTop": 0,
+          },
+          undefined,
+          undefined,
+        ]
+      }
+      testID="p"
+    >
+      <Text
+        allowFontScaling={true}
+        selectable={false}
+        style={
+          [
+            {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 17,
+              "letterSpacing": 0.4,
+              "lineHeight": 23.799999999999997,
+            },
+            undefined,
+            undefined,
+          ]
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          selectable={false}
+          style={
+            [
+              {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 17,
+                "letterSpacing": 0.4,
+                "lineHeight": 23.799999999999997,
+              },
+              undefined,
+              undefined,
+            ]
+          }
+        >
+          some text 
+        </Text>
+        <RNSVGSvgView
+          align="xMidYMid"
+          bbHeight="39.423ex"
+          bbWidth="18.0795ex"
+          color="rgb(28, 28, 30)"
+          focusable={false}
+          fontSize={17}
+          height="39.423ex"
+          meetOrSlice={0}
+          minX={0}
+          minY={-1342}
+          role="img"
+          style={
+            [
+              {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              {
+                "verticalAlign": "-1.602ex",
+              },
+              {
+                "flex": 0,
+                "height": 39,
+                "width": 18,
+              },
+            ]
+          }
+          tintColor="rgb(28, 28, 30)"
+          vbHeight={2050}
+          vbWidth={940}
+          width="18.0795ex"
+          xml="<svg style="vertical-align: -1.602ex" xmlns="http://www.w3.org/2000/svg" width="18.0795ex" height="39.423ex" role="img" focusable="false" viewBox="0 -1342 940 2050" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="MJX-1-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path><path id="MJX-1-TEX-N-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"></path></defs><g stroke="rgb(28, 28, 30)" fill="rgb(28, 28, 30)" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mfrac"><g data-mml-node="mn" transform="translate(220,676)"><use data-c="32" xlink:href="#MJX-1-TEX-N-32"></use></g><g data-mml-node="mn" transform="translate(220,-686)"><use data-c="35" xlink:href="#MJX-1-TEX-N-35"></use></g><rect width="700" height="60" x="120" y="220"></rect></g></g></g></svg>"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <RNSVGGroup
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+          >
+            <RNSVGDefs>
+              <RNSVGPath
+                d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+                name="MJX-1-TEX-N-32"
+              />
+              <RNSVGPath
+                d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+                name="MJX-1-TEX-N-35"
+              />
+            </RNSVGDefs>
+            <RNSVGGroup
+              fill={
+                {
+                  "payload": 4280032286,
+                  "type": 0,
+                }
+              }
+              matrix={
+                [
+                  1,
+                  0,
+                  0,
+                  -1,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                ]
+              }
+              stroke={
+                {
+                  "payload": 4280032286,
+                  "type": 0,
+                }
+              }
+              strokeWidth="0"
+            >
+              <RNSVGGroup
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+              >
+                <RNSVGGroup
+                  fill={
+                    {
+                      "payload": 4278190080,
+                      "type": 0,
+                    }
+                  }
+                >
+                  <RNSVGGroup
+                    fill={
+                      {
+                        "payload": 4278190080,
+                        "type": 0,
+                      }
+                    }
+                    matrix={
+                      [
+                        1,
+                        0,
+                        0,
+                        1,
+                        220,
+                        676,
+                      ]
+                    }
+                  >
+                    <RNSVGUse
+                      fill={
+                        {
+                          "payload": 4278190080,
+                          "type": 0,
+                        }
+                      }
+                      height="0"
+                      href="MJX-1-TEX-N-32"
+                      width="0"
+                      x="0"
+                      y="0"
+                    />
+                  </RNSVGGroup>
+                  <RNSVGGroup
+                    fill={
+                      {
+                        "payload": 4278190080,
+                        "type": 0,
+                      }
+                    }
+                    matrix={
+                      [
+                        1,
+                        0,
+                        0,
+                        1,
+                        220,
+                        -686,
+                      ]
+                    }
+                  >
+                    <RNSVGUse
+                      fill={
+                        {
+                          "payload": 4278190080,
+                          "type": 0,
+                        }
+                      }
+                      height="0"
+                      href="MJX-1-TEX-N-35"
+                      width="0"
+                      x="0"
+                      y="0"
+                    />
+                  </RNSVGGroup>
+                  <RNSVGRect
+                    fill={
+                      {
+                        "payload": 4278190080,
+                        "type": 0,
+                      }
+                    }
+                    height="60"
+                    width="700"
+                    x="120"
+                    y="220"
+                  />
+                </RNSVGGroup>
+              </RNSVGGroup>
+            </RNSVGGroup>
+          </RNSVGGroup>
+        </RNSVGSvgView>
+        <Text
+          allowFontScaling={true}
+          selectable={false}
+          style={
+            [
+              {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 17,
+                "letterSpacing": 0.4,
+                "lineHeight": 23.799999999999997,
+              },
+              undefined,
+              undefined,
+            ]
+          }
+        >
+          is the same as 
+        </Text>
+        <RNSVGSvgView
+          align="xMidYMid"
+          bbHeight="39.6355ex"
+          bbWidth="27.693ex"
+          color="rgb(28, 28, 30)"
+          focusable={false}
+          fontSize={17}
+          height="39.6355ex"
+          meetOrSlice={0}
+          minX={0}
+          minY={-1353}
+          role="img"
+          style={
+            [
+              {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              {
+                "verticalAlign": "-1.602ex",
+              },
+              {
+                "flex": 0,
+                "height": 39,
+                "width": 27,
+              },
+            ]
+          }
+          tintColor="rgb(28, 28, 30)"
+          vbHeight={2061}
+          vbWidth={1440}
+          width="27.693ex"
+          xml="<svg style="vertical-align: -1.602ex" xmlns="http://www.w3.org/2000/svg" width="27.693ex" height="39.6355ex" role="img" focusable="false" viewBox="0 -1353 1440 2061" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="MJX-1-TEX-N-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"></path><path id="MJX-1-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path><path id="MJX-1-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"></path></defs><g stroke="rgb(28, 28, 30)" fill="rgb(28, 28, 30)" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mfrac"><g data-mml-node="mn" transform="translate(470,676)"><use data-c="34" xlink:href="#MJX-1-TEX-N-34"></use></g><g data-mml-node="mn" transform="translate(220,-686)"><use data-c="31" xlink:href="#MJX-1-TEX-N-31"></use><use data-c="30" xlink:href="#MJX-1-TEX-N-30" transform="translate(500,0)"></use></g><rect width="1200" height="60" x="120" y="220"></rect></g></g></g></svg>"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <RNSVGGroup
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+          >
+            <RNSVGDefs>
+              <RNSVGPath
+                d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+                name="MJX-1-TEX-N-34"
+              />
+              <RNSVGPath
+                d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+                name="MJX-1-TEX-N-31"
+              />
+              <RNSVGPath
+                d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+                name="MJX-1-TEX-N-30"
+              />
+            </RNSVGDefs>
+            <RNSVGGroup
+              fill={
+                {
+                  "payload": 4280032286,
+                  "type": 0,
+                }
+              }
+              matrix={
+                [
+                  1,
+                  0,
+                  0,
+                  -1,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                ]
+              }
+              stroke={
+                {
+                  "payload": 4280032286,
+                  "type": 0,
+                }
+              }
+              strokeWidth="0"
+            >
+              <RNSVGGroup
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+              >
+                <RNSVGGroup
+                  fill={
+                    {
+                      "payload": 4278190080,
+                      "type": 0,
+                    }
+                  }
+                >
+                  <RNSVGGroup
+                    fill={
+                      {
+                        "payload": 4278190080,
+                        "type": 0,
+                      }
+                    }
+                    matrix={
+                      [
+                        1,
+                        0,
+                        0,
+                        1,
+                        470,
+                        676,
+                      ]
+                    }
+                  >
+                    <RNSVGUse
+                      fill={
+                        {
+                          "payload": 4278190080,
+                          "type": 0,
+                        }
+                      }
+                      height="0"
+                      href="MJX-1-TEX-N-34"
+                      width="0"
+                      x="0"
+                      y="0"
+                    />
+                  </RNSVGGroup>
+                  <RNSVGGroup
+                    fill={
+                      {
+                        "payload": 4278190080,
+                        "type": 0,
+                      }
+                    }
+                    matrix={
+                      [
+                        1,
+                        0,
+                        0,
+                        1,
+                        220,
+                        -686,
+                      ]
+                    }
+                  >
+                    <RNSVGUse
+                      fill={
+                        {
+                          "payload": 4278190080,
+                          "type": 0,
+                        }
+                      }
+                      height="0"
+                      href="MJX-1-TEX-N-31"
+                      width="0"
+                      x="0"
+                      y="0"
+                    />
+                    <RNSVGUse
+                      fill={
+                        {
+                          "payload": 4278190080,
+                          "type": 0,
+                        }
+                      }
+                      height="0"
+                      href="MJX-1-TEX-N-30"
+                      matrix={
+                        [
+                          1,
+                          0,
+                          0,
+                          1,
+                          500,
+                          0,
+                        ]
+                      }
+                      width="0"
+                      x="0"
+                      y="0"
+                    />
+                  </RNSVGGroup>
+                  <RNSVGRect
+                    fill={
+                      {
+                        "payload": 4278190080,
+                        "type": 0,
+                      }
+                    }
+                    height="60"
+                    width="1200"
+                    x="120"
+                    y="220"
+                  />
+                </RNSVGGroup>
+              </RNSVGGroup>
+            </RNSVGGroup>
+          </RNSVGGroup>
+        </RNSVGSvgView>
+        <Text
+          allowFontScaling={true}
+          selectable={false}
+          style={
+            [
+              {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 17,
+                "letterSpacing": 0.4,
+                "lineHeight": 23.799999999999997,
+              },
+              undefined,
+              undefined,
+            ]
+          }
+        >
+           which is 0.4. Hence some more mathematical information 
+        </Text>
+        <RNSVGSvgView
+          align="xMidYMid"
+          bbHeight="39.423ex"
+          bbWidth="18.0795ex"
+          color="rgb(28, 28, 30)"
+          focusable={false}
+          fontSize={17}
+          height="39.423ex"
+          meetOrSlice={0}
+          minX={0}
+          minY={-1342}
+          role="img"
+          style={
+            [
+              {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              {
+                "verticalAlign": "-1.602ex",
+              },
+              {
+                "flex": 0,
+                "height": 39,
+                "width": 18,
+              },
+            ]
+          }
+          tintColor="rgb(28, 28, 30)"
+          vbHeight={2050}
+          vbWidth={940}
+          width="18.0795ex"
+          xml="<svg style="vertical-align: -1.602ex" xmlns="http://www.w3.org/2000/svg" width="18.0795ex" height="39.423ex" role="img" focusable="false" viewBox="0 -1342 940 2050" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="MJX-1-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path><path id="MJX-1-TEX-N-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"></path></defs><g stroke="rgb(28, 28, 30)" fill="rgb(28, 28, 30)" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mfrac"><g data-mml-node="mn" transform="translate(220,676)"><use data-c="32" xlink:href="#MJX-1-TEX-N-32"></use></g><g data-mml-node="mn" transform="translate(220,-686)"><use data-c="35" xlink:href="#MJX-1-TEX-N-35"></use></g><rect width="700" height="60" x="120" y="220"></rect></g></g></g></svg>"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <RNSVGGroup
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+          >
+            <RNSVGDefs>
+              <RNSVGPath
+                d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+                name="MJX-1-TEX-N-32"
+              />
+              <RNSVGPath
+                d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+                name="MJX-1-TEX-N-35"
+              />
+            </RNSVGDefs>
+            <RNSVGGroup
+              fill={
+                {
+                  "payload": 4280032286,
+                  "type": 0,
+                }
+              }
+              matrix={
+                [
+                  1,
+                  0,
+                  0,
+                  -1,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                ]
+              }
+              stroke={
+                {
+                  "payload": 4280032286,
+                  "type": 0,
+                }
+              }
+              strokeWidth="0"
+            >
+              <RNSVGGroup
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+              >
+                <RNSVGGroup
+                  fill={
+                    {
+                      "payload": 4278190080,
+                      "type": 0,
+                    }
+                  }
+                >
+                  <RNSVGGroup
+                    fill={
+                      {
+                        "payload": 4278190080,
+                        "type": 0,
+                      }
+                    }
+                    matrix={
+                      [
+                        1,
+                        0,
+                        0,
+                        1,
+                        220,
+                        676,
+                      ]
+                    }
+                  >
+                    <RNSVGUse
+                      fill={
+                        {
+                          "payload": 4278190080,
+                          "type": 0,
+                        }
+                      }
+                      height="0"
+                      href="MJX-1-TEX-N-32"
+                      width="0"
+                      x="0"
+                      y="0"
+                    />
+                  </RNSVGGroup>
+                  <RNSVGGroup
+                    fill={
+                      {
+                        "payload": 4278190080,
+                        "type": 0,
+                      }
+                    }
+                    matrix={
+                      [
+                        1,
+                        0,
+                        0,
+                        1,
+                        220,
+                        -686,
+                      ]
+                    }
+                  >
+                    <RNSVGUse
+                      fill={
+                        {
+                          "payload": 4278190080,
+                          "type": 0,
+                        }
+                      }
+                      height="0"
+                      href="MJX-1-TEX-N-35"
+                      width="0"
+                      x="0"
+                      y="0"
+                    />
+                  </RNSVGGroup>
+                  <RNSVGRect
+                    fill={
+                      {
+                        "payload": 4278190080,
+                        "type": 0,
+                      }
+                    }
+                    height="60"
+                    width="700"
+                    x="120"
+                    y="220"
+                  />
+                </RNSVGGroup>
+              </RNSVGGroup>
+            </RNSVGGroup>
+          </RNSVGGroup>
+        </RNSVGSvgView>
+        <Text
+          allowFontScaling={true}
+          selectable={false}
+          style={
+            [
+              {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 17,
+                "letterSpacing": 0.4,
+                "lineHeight": 23.799999999999997,
+              },
+              undefined,
+              undefined,
+            ]
+          }
+        >
+          , 0.4 
+        </Text>
+        <View>
+          <Text
+            allowFontScaling={true}
+            selectable={false}
+            style={
+              [
+                [
+                  {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 11.62,
+                    "letterSpacing": 0.4,
+                    "lineHeight": 23.799999999999997,
+                    "textAlignVertical": "top",
+                  },
+                  {
+                    "fontSize": 11.6195,
+                    "lineHeight": 14.279999999999998,
+                    "marginBottom": 5.949999999999999,
+                  },
+                ],
+                undefined,
+                undefined,
+              ]
+            }
+            testID="sup"
+          >
+            and 40%
+          </Text>
+        </View>
+        <Text
+          allowFontScaling={true}
+          selectable={false}
+          style={
+            [
+              {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 17,
+                "letterSpacing": 0.4,
+                "lineHeight": 23.799999999999997,
+              },
+              undefined,
+              undefined,
+            ]
+          }
+        >
+           are 
+        </Text>
+        <RNSVGSvgView
+          align="xMidYMid"
+          bbHeight="16.3115ex"
+          bbWidth="37.961ex"
+          color="rgb(28, 28, 30)"
+          focusable={false}
+          fontSize={17}
+          height="16.3115ex"
+          meetOrSlice={0}
+          minX={0}
+          minY={-716}
+          role="img"
+          style={
+            [
+              {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              {
+                "verticalAlign": "-0.299ex",
+              },
+              {
+                "flex": 0,
+                "height": 16,
+                "width": 37,
+              },
+            ]
+          }
+          tintColor="rgb(28, 28, 30)"
+          vbHeight={848}
+          vbWidth={1974}
+          width="37.961ex"
+          xml="<svg style="vertical-align: -0.299ex" xmlns="http://www.w3.org/2000/svg" width="37.961ex" height="16.3115ex" role="img" focusable="false" viewBox="0 -716 1974 848" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="MJX-1-TEX-I-1D44E" d="M33 157Q33 258 109 349T280 441Q331 441 370 392Q386 422 416 422Q429 422 439 414T449 394Q449 381 412 234T374 68Q374 43 381 35T402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487Q506 153 506 144Q506 138 501 117T481 63T449 13Q436 0 417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157ZM351 328Q351 334 346 350T323 385T277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q217 26 254 59T298 110Q300 114 325 217T351 328Z"></path><path id="MJX-1-TEX-I-25FC" d="M71 0Q59 4 55 16V346L56 676Q64 686 70 689H709Q719 681 722 674V15Q719 10 709 1L390 0H71Z"></path><path id="MJX-1-TEX-I-29EB" d="M318 709Q325 716 332 716Q340 716 344 713T474 511Q611 298 611 292Q611 285 526 152Q494 103 474 72Q347 -128 344 -130Q340 -132 333 -132T322 -130Q319 -128 257 -31T131 169T60 278Q56 285 56 292Q56 298 60 305Q73 326 194 516T318 709Z"></path></defs><g stroke="rgb(28, 28, 30)" fill="rgb(28, 28, 30)" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><use data-c="1D44E" xlink:href="#MJX-1-TEX-I-1D44E"></use></g><g data-mml-node="mi" transform="translate(529,0)"><use data-c="25FC" xlink:href="#MJX-1-TEX-I-25FC"></use></g><g data-mml-node="mi" transform="translate(1307,0)"><use data-c="29EB" xlink:href="#MJX-1-TEX-I-29EB"></use></g></g></g></svg>"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <RNSVGGroup
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+          >
+            <RNSVGDefs>
+              <RNSVGPath
+                d="M33 157Q33 258 109 349T280 441Q331 441 370 392Q386 422 416 422Q429 422 439 414T449 394Q449 381 412 234T374 68Q374 43 381 35T402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487Q506 153 506 144Q506 138 501 117T481 63T449 13Q436 0 417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157ZM351 328Q351 334 346 350T323 385T277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q217 26 254 59T298 110Q300 114 325 217T351 328Z"
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+                name="MJX-1-TEX-I-1D44E"
+              />
+              <RNSVGPath
+                d="M71 0Q59 4 55 16V346L56 676Q64 686 70 689H709Q719 681 722 674V15Q719 10 709 1L390 0H71Z"
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+                name="MJX-1-TEX-I-25FC"
+              />
+              <RNSVGPath
+                d="M318 709Q325 716 332 716Q340 716 344 713T474 511Q611 298 611 292Q611 285 526 152Q494 103 474 72Q347 -128 344 -130Q340 -132 333 -132T322 -130Q319 -128 257 -31T131 169T60 278Q56 285 56 292Q56 298 60 305Q73 326 194 516T318 709Z"
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+                name="MJX-1-TEX-I-29EB"
+              />
+            </RNSVGDefs>
+            <RNSVGGroup
+              fill={
+                {
+                  "payload": 4280032286,
+                  "type": 0,
+                }
+              }
+              matrix={
+                [
+                  1,
+                  0,
+                  0,
+                  -1,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                ]
+              }
+              stroke={
+                {
+                  "payload": 4280032286,
+                  "type": 0,
+                }
+              }
+              strokeWidth="0"
+            >
+              <RNSVGGroup
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+              >
+                <RNSVGGroup
+                  fill={
+                    {
+                      "payload": 4278190080,
+                      "type": 0,
+                    }
+                  }
+                >
+                  <RNSVGUse
+                    fill={
+                      {
+                        "payload": 4278190080,
+                        "type": 0,
+                      }
+                    }
+                    height="0"
+                    href="MJX-1-TEX-I-1D44E"
+                    width="0"
+                    x="0"
+                    y="0"
+                  />
+                </RNSVGGroup>
+                <RNSVGGroup
+                  fill={
+                    {
+                      "payload": 4278190080,
+                      "type": 0,
+                    }
+                  }
+                  matrix={
+                    [
+                      1,
+                      0,
+                      0,
+                      1,
+                      529,
+                      0,
+                    ]
+                  }
+                >
+                  <RNSVGUse
+                    fill={
+                      {
+                        "payload": 4278190080,
+                        "type": 0,
+                      }
+                    }
+                    height="0"
+                    href="MJX-1-TEX-I-25FC"
+                    width="0"
+                    x="0"
+                    y="0"
+                  />
+                </RNSVGGroup>
+                <RNSVGGroup
+                  fill={
+                    {
+                      "payload": 4278190080,
+                      "type": 0,
+                    }
+                  }
+                  matrix={
+                    [
+                      1,
+                      0,
+                      0,
+                      1,
+                      1307,
+                      0,
+                    ]
+                  }
+                >
+                  <RNSVGUse
+                    fill={
+                      {
+                        "payload": 4278190080,
+                        "type": 0,
+                      }
+                    }
+                    height="0"
+                    href="MJX-1-TEX-I-29EB"
+                    width="0"
+                    x="0"
+                    y="0"
+                  />
+                </RNSVGGroup>
+              </RNSVGGroup>
+            </RNSVGGroup>
+          </RNSVGGroup>
+        </RNSVGSvgView>
+        <Text
+          allowFontScaling={true}
+          selectable={false}
+          style={
+            [
+              {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 17,
+                "letterSpacing": 0.4,
+                "lineHeight": 23.799999999999997,
+              },
+              undefined,
+              undefined,
+            ]
+          }
+        >
+          all equivalent.
+        </Text>
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`FormattedHTML renders the contents of <sub> tags correctly 1`] = `
+<View
+  style={
+    [
+      {},
+      undefined,
+      undefined,
+    ]
+  }
+  testID="html"
+>
+  <View
+    style={
+      [
+        {},
+        undefined,
+        undefined,
+      ]
+    }
+    testID="body"
+  >
+    <View
+      accessibilityLabel="Heading1 containing some emphasised subscript text"
+      accessibilityRole="header"
+      accessible={true}
+      style={
+        [
+          {
+            "marginBottom": 39,
+            "marginTop": 39,
+          },
+          undefined,
+          undefined,
+        ]
+      }
+      testID="h1"
+    >
+      <Text
+        allowFontScaling={true}
+        selectable={false}
+        style={
+          [
+            {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 34,
+              "fontWeight": "bold",
+              "letterSpacing": 0.4,
+              "lineHeight": 40.8,
+            },
+            undefined,
+            undefined,
+          ]
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          selectable={false}
+          style={
+            [
+              {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 34,
+                "fontWeight": "bold",
+                "letterSpacing": 0.4,
+                "lineHeight": 40.8,
+              },
+              undefined,
+              undefined,
+            ]
+          }
+        >
+          Heading
+        </Text>
+        <View>
+          <Text
+            allowFontScaling={true}
+            selectable={false}
+            style={
+              [
+                [
+                  {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 11.62,
+                    "fontWeight": "bold",
+                    "letterSpacing": 0.4,
+                    "lineHeight": 40.8,
+                    "textAlignVertical": "bottom",
+                  },
+                  {
+                    "fontSize": 23.239,
+                    "lineHeight": 24.479999999999997,
+                    "marginBottom": -6,
+                  },
+                ],
+                undefined,
+                undefined,
+              ]
+            }
+            testID="sub"
+          >
+            1
+          </Text>
+        </View>
+        <Text
+          allowFontScaling={true}
+          selectable={false}
+          style={
+            [
+              {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 34,
+                "fontWeight": "bold",
+                "letterSpacing": 0.4,
+                "lineHeight": 40.8,
+              },
+              undefined,
+              undefined,
+            ]
+          }
+        >
+           containing 
+        </Text>
+        <View>
+          <Text
+            allowFontScaling={true}
+            selectable={false}
+            style={
+              [
+                [
+                  {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 11.62,
+                    "fontWeight": "bold",
+                    "letterSpacing": 0.4,
+                    "lineHeight": 40.8,
+                    "textAlignVertical": "bottom",
+                  },
+                  {
+                    "fontSize": 23.239,
+                    "lineHeight": 24.479999999999997,
+                    "marginBottom": -6,
+                  },
+                ],
+                undefined,
+                undefined,
+              ]
+            }
+            testID="sub"
+          >
+            <Text
+              allowFontScaling={true}
+              selectable={false}
+              style={
+                [
+                  {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 11.62,
+                    "fontWeight": "bold",
+                    "letterSpacing": 0.4,
+                    "lineHeight": 40.8,
+                    "textAlignVertical": "bottom",
+                  },
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              some 
+            </Text>
+            <Text
+              allowFontScaling={true}
+              selectable={false}
+              style={
+                [
+                  {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 11.62,
+                    "fontStyle": "italic",
+                    "fontWeight": "bold",
+                    "letterSpacing": 0.4,
+                    "lineHeight": 40.8,
+                    "textAlignVertical": "bottom",
+                  },
+                  undefined,
+                  undefined,
+                ]
+              }
+              testID="em"
+            >
+              emphasised
+            </Text>
+            <Text
+              allowFontScaling={true}
+              selectable={false}
+              style={
+                [
+                  {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 11.62,
+                    "fontWeight": "bold",
+                    "letterSpacing": 0.4,
+                    "lineHeight": 40.8,
+                    "textAlignVertical": "bottom",
+                  },
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+               subscript
+            </Text>
+          </Text>
+        </View>
+        <Text
+          allowFontScaling={true}
+          selectable={false}
+          style={
+            [
+              {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 34,
+                "fontWeight": "bold",
+                "letterSpacing": 0.4,
+                "lineHeight": 40.8,
+              },
+              undefined,
+              undefined,
+            ]
+          }
+        >
+           text
+        </Text>
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "marginBottom": 17,
+            "marginTop": 0,
+          },
+          undefined,
+          undefined,
+        ]
+      }
+      testID="p"
+    >
+      <Text
+        allowFontScaling={true}
+        selectable={false}
+        style={
+          [
+            {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 17,
+              "letterSpacing": 0.4,
+              "lineHeight": 23.799999999999997,
+            },
+            undefined,
+            undefined,
+          ]
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          selectable={false}
+          style={
+            [
+              {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 17,
+                "letterSpacing": 0.4,
+                "lineHeight": 23.799999999999997,
+              },
+              undefined,
+              undefined,
+            ]
+          }
+        >
+          Paragraph
+        </Text>
+        <View>
+          <Text
+            allowFontScaling={true}
+            selectable={false}
+            style={
+              [
+                [
+                  {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 11.62,
+                    "letterSpacing": 0.4,
+                    "lineHeight": 23.799999999999997,
+                    "textAlignVertical": "bottom",
+                  },
+                  {
+                    "fontSize": 11.6195,
+                    "lineHeight": 14.279999999999998,
+                    "marginBottom": -6,
+                  },
+                ],
+                undefined,
+                undefined,
+              ]
+            }
+            testID="sub"
+          >
+            1
+          </Text>
+        </View>
+        <Text
+          allowFontScaling={true}
+          selectable={false}
+          style={
+            [
+              {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 17,
+                "letterSpacing": 0.4,
+                "lineHeight": 23.799999999999997,
+              },
+              undefined,
+              undefined,
+            ]
+          }
+        >
+           containing 
+        </Text>
+        <View>
+          <Text
+            allowFontScaling={true}
+            selectable={false}
+            style={
+              [
+                [
+                  {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 11.62,
+                    "letterSpacing": 0.4,
+                    "lineHeight": 23.799999999999997,
+                    "textAlignVertical": "bottom",
+                  },
+                  {
+                    "fontSize": 11.6195,
+                    "lineHeight": 14.279999999999998,
+                    "marginBottom": -6,
+                  },
+                ],
+                undefined,
+                undefined,
+              ]
+            }
+            testID="sub"
+          >
+            <Text
+              allowFontScaling={true}
+              selectable={false}
+              style={
+                [
+                  {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 11.62,
+                    "letterSpacing": 0.4,
+                    "lineHeight": 23.799999999999997,
+                    "textAlignVertical": "bottom",
+                  },
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              some 
+            </Text>
+            <Text
+              allowFontScaling={true}
+              selectable={false}
+              style={
+                [
+                  {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 11.62,
+                    "fontStyle": "italic",
+                    "letterSpacing": 0.4,
+                    "lineHeight": 23.799999999999997,
+                    "textAlignVertical": "bottom",
+                  },
+                  undefined,
+                  undefined,
+                ]
+              }
+              testID="em"
+            >
+              emphasised
+            </Text>
+            <Text
+              allowFontScaling={true}
+              selectable={false}
+              style={
+                [
+                  {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 11.62,
+                    "letterSpacing": 0.4,
+                    "lineHeight": 23.799999999999997,
+                    "textAlignVertical": "bottom",
+                  },
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+               subscript
+            </Text>
+          </Text>
+        </View>
+        <Text
+          allowFontScaling={true}
+          selectable={false}
+          style={
+            [
+              {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 17,
+                "letterSpacing": 0.4,
+                "lineHeight": 23.799999999999997,
+              },
+              undefined,
+              undefined,
+            ]
+          }
+        >
+           text
+        </Text>
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`FormattedHTML renders the contents of <sup> tags correctly 1`] = `
+<View
+  style={
+    [
+      {},
+      undefined,
+      undefined,
+    ]
+  }
+  testID="html"
+>
+  <View
+    style={
+      [
+        {},
+        undefined,
+        undefined,
+      ]
+    }
+    testID="body"
+  >
+    <View
+      accessibilityLabel="1st heading containing some emphasised superscript text"
+      accessibilityRole="header"
+      accessible={true}
+      style={
+        [
+          {
+            "marginBottom": 39,
+            "marginTop": 39,
+          },
+          undefined,
+          undefined,
+        ]
+      }
+      testID="h1"
+    >
+      <Text
+        allowFontScaling={true}
+        selectable={false}
+        style={
+          [
+            {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 34,
+              "fontWeight": "bold",
+              "letterSpacing": 0.4,
+              "lineHeight": 40.8,
+            },
+            undefined,
+            undefined,
+          ]
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          selectable={false}
+          style={
+            [
+              {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 34,
+                "fontWeight": "bold",
+                "letterSpacing": 0.4,
+                "lineHeight": 40.8,
+              },
+              undefined,
+              undefined,
+            ]
+          }
+        >
+          1
+        </Text>
+        <View>
+          <Text
+            allowFontScaling={true}
+            selectable={false}
+            style={
+              [
+                [
+                  {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 11.62,
+                    "fontWeight": "bold",
+                    "letterSpacing": 0.4,
+                    "lineHeight": 40.8,
+                    "textAlignVertical": "top",
+                  },
+                  {
+                    "fontSize": 23.239,
+                    "lineHeight": 24.479999999999997,
+                    "marginBottom": 11.899999999999999,
+                  },
+                ],
+                undefined,
+                undefined,
+              ]
+            }
+            testID="sup"
+          >
+            st
+          </Text>
+        </View>
+        <Text
+          allowFontScaling={true}
+          selectable={false}
+          style={
+            [
+              {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 34,
+                "fontWeight": "bold",
+                "letterSpacing": 0.4,
+                "lineHeight": 40.8,
+              },
+              undefined,
+              undefined,
+            ]
+          }
+        >
+           heading containing 
+        </Text>
+        <View>
+          <Text
+            allowFontScaling={true}
+            selectable={false}
+            style={
+              [
+                [
+                  {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 11.62,
+                    "fontWeight": "bold",
+                    "letterSpacing": 0.4,
+                    "lineHeight": 40.8,
+                    "textAlignVertical": "top",
+                  },
+                  {
+                    "fontSize": 23.239,
+                    "lineHeight": 24.479999999999997,
+                    "marginBottom": 11.899999999999999,
+                  },
+                ],
+                undefined,
+                undefined,
+              ]
+            }
+            testID="sup"
+          >
+            <Text
+              allowFontScaling={true}
+              selectable={false}
+              style={
+                [
+                  {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 11.62,
+                    "fontWeight": "bold",
+                    "letterSpacing": 0.4,
+                    "lineHeight": 40.8,
+                    "textAlignVertical": "top",
+                  },
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              some 
+            </Text>
+            <Text
+              allowFontScaling={true}
+              selectable={false}
+              style={
+                [
+                  {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 11.62,
+                    "fontStyle": "italic",
+                    "fontWeight": "bold",
+                    "letterSpacing": 0.4,
+                    "lineHeight": 40.8,
+                    "textAlignVertical": "top",
+                  },
+                  undefined,
+                  undefined,
+                ]
+              }
+              testID="em"
+            >
+              emphasised
+            </Text>
+            <Text
+              allowFontScaling={true}
+              selectable={false}
+              style={
+                [
+                  {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 11.62,
+                    "fontWeight": "bold",
+                    "letterSpacing": 0.4,
+                    "lineHeight": 40.8,
+                    "textAlignVertical": "top",
+                  },
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+               superscript
+            </Text>
+          </Text>
+        </View>
+        <Text
+          allowFontScaling={true}
+          selectable={false}
+          style={
+            [
+              {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 34,
+                "fontWeight": "bold",
+                "letterSpacing": 0.4,
+                "lineHeight": 40.8,
+              },
+              undefined,
+              undefined,
+            ]
+          }
+        >
+           text
+        </Text>
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "marginBottom": 17,
+            "marginTop": 0,
+          },
+          undefined,
+          undefined,
+        ]
+      }
+      testID="p"
+    >
+      <Text
+        allowFontScaling={true}
+        selectable={false}
+        style={
+          [
+            {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 17,
+              "letterSpacing": 0.4,
+              "lineHeight": 23.799999999999997,
+            },
+            undefined,
+            undefined,
+          ]
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          selectable={false}
+          style={
+            [
+              {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 17,
+                "letterSpacing": 0.4,
+                "lineHeight": 23.799999999999997,
+              },
+              undefined,
+              undefined,
+            ]
+          }
+        >
+          1
+        </Text>
+        <View>
+          <Text
+            allowFontScaling={true}
+            selectable={false}
+            style={
+              [
+                [
+                  {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 11.62,
+                    "letterSpacing": 0.4,
+                    "lineHeight": 23.799999999999997,
+                    "textAlignVertical": "top",
+                  },
+                  {
+                    "fontSize": 11.6195,
+                    "lineHeight": 14.279999999999998,
+                    "marginBottom": 5.949999999999999,
+                  },
+                ],
+                undefined,
+                undefined,
+              ]
+            }
+            testID="sup"
+          >
+            st
+          </Text>
+        </View>
+        <Text
+          allowFontScaling={true}
+          selectable={false}
+          style={
+            [
+              {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 17,
+                "letterSpacing": 0.4,
+                "lineHeight": 23.799999999999997,
+              },
+              undefined,
+              undefined,
+            ]
+          }
+        >
+           paragraph containing 
+        </Text>
+        <View>
+          <Text
+            allowFontScaling={true}
+            selectable={false}
+            style={
+              [
+                [
+                  {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 11.62,
+                    "letterSpacing": 0.4,
+                    "lineHeight": 23.799999999999997,
+                    "textAlignVertical": "top",
+                  },
+                  {
+                    "fontSize": 11.6195,
+                    "lineHeight": 14.279999999999998,
+                    "marginBottom": 5.949999999999999,
+                  },
+                ],
+                undefined,
+                undefined,
+              ]
+            }
+            testID="sup"
+          >
+            <Text
+              allowFontScaling={true}
+              selectable={false}
+              style={
+                [
+                  {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 11.62,
+                    "letterSpacing": 0.4,
+                    "lineHeight": 23.799999999999997,
+                    "textAlignVertical": "top",
+                  },
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              some 
+            </Text>
+            <Text
+              allowFontScaling={true}
+              selectable={false}
+              style={
+                [
+                  {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 11.62,
+                    "fontStyle": "italic",
+                    "letterSpacing": 0.4,
+                    "lineHeight": 23.799999999999997,
+                    "textAlignVertical": "top",
+                  },
+                  undefined,
+                  undefined,
+                ]
+              }
+              testID="em"
+            >
+              emphasised
+            </Text>
+            <Text
+              allowFontScaling={true}
+              selectable={false}
+              style={
+                [
+                  {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 11.62,
+                    "letterSpacing": 0.4,
+                    "lineHeight": 23.799999999999997,
+                    "textAlignVertical": "top",
+                  },
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+               superscript
+            </Text>
+          </Text>
+        </View>
+        <Text
+          allowFontScaling={true}
+          selectable={false}
+          style={
+            [
+              {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 17,
+                "letterSpacing": 0.4,
+                "lineHeight": 23.799999999999997,
+              },
+              undefined,
+              undefined,
+            ]
+          }
+        >
+           text
+        </Text>
+      </Text>
+    </View>
+  </View>
+</View>
+`;

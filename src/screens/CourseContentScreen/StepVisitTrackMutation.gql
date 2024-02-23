@@ -1,0 +1,8 @@
+mutation StepVisitTrack($stepId: ID!, $visitedAt: ISO8601DateTime!) {
+  stepVisitTrack(input: { stepId: $stepId, visitedAt: $visitedAt }) {
+    visitedAt
+    errors {
+      message
+    }
+  }
+}

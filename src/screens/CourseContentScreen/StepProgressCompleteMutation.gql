@@ -1,0 +1,10 @@
+mutation StepProgressComplete($stepId: ID!) {
+  stepProgressComplete(input: { stepId: $stepId }) {
+    stepProgress {
+      lastCompletedAt
+      step {
+        id
+      }
+    }
+  }
+}

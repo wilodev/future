@@ -1,0 +1,10 @@
+mutation StepProgressUndo($stepId: ID!) {
+  stepProgressUndo(input: { stepId: $stepId }) {
+    stepProgress {
+      lastCompletedAt
+      step {
+        id
+      }
+    }
+  }
+}

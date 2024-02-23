@@ -1,0 +1,6 @@
+query UserProfile {
+  currentUser {
+    id
+    email
+  }
+}

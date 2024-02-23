@@ -1,0 +1,25 @@
+schema:
+  - ./graphql/schema.graphql
+hooks:
+  afterAllFileWrite:
+    - prettier --write
+config:
+  defaultScalarType: unknown
+  scalars:
+    HTML: string
+    ISO8601DateTime: string
+    URL: string
+generates:
+  ./src/graphql.d.ts:
+    plugins:
+      - typescript
+  ./:
+    documents:
+      - 'src/**/*.gql'
+    preset: near-operation-file
+    presetConfig:
+      extension: '.generated.tsx'
+      baseTypesPath: 'src/graphql.d.ts'
+    plugins:
+      - typescript-operations
+      - typescript-react-apollo

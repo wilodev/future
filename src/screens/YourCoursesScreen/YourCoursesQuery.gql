@@ -1,0 +1,21 @@
+query YourCourses {
+  currentUser {
+    id
+    firstName
+    hasSubscriptions
+    activeCourseEnrolments {
+      id
+      createdAt
+      run {
+        id
+        fullTitle
+        imageUrl
+        course {
+          organisation {
+            title
+          }
+        }
+      }
+    }
+  }
+}

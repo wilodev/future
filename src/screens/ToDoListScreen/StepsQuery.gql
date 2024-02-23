@@ -1,0 +1,23 @@
+query Steps($runId: ID!) {
+  run(id: $runId) {
+    id
+    weeks {
+      id
+      title
+      number
+      activities {
+        id
+        shortDescription
+        title
+        imageUrl
+        steps {
+          id
+          number
+          shortStepTypeLabel
+          title
+          contentType
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+query StepProgress($enrolmentId: ID!, $stepId: ID!) {
+  courseEnrolment(id: $enrolmentId) {
+    id
+    stepProgress: stepProgressByStep(stepId: $stepId) {
+      lastCompletedAt
+      step {
+        id
+      }
+    }
+  }
+}
